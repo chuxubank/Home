@@ -13,7 +13,7 @@ cp /Library/Input\ Methods/Squirrel.app/Contents/Frameworks/librime.1.dylib $RIM
 cp /Library/Input\ Methods/Squirrel.app/Contents/Frameworks/librime.1.dylib /usr/local/lib
 echo "✅  librime updated"
 
-cd ~/.emacs.d
+cd ~/.spacemacs/
 git pull
 git --no-pager log --since=1.weeks --oneline
 echo "✅  spacemacs upgraded"
