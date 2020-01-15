@@ -17,3 +17,11 @@ cd ~/.spacemacs/
 git pull
 git --no-pager log --since=1.weeks --oneline
 echo "✅  spacemacs upgraded"
+
+cd ~/.doom/
+git pull
+git --no-pager log --since=1.weeks --oneline
+doom clean
+doom refresh
+doom update
+echo "✅  doom emacs upgraded"
