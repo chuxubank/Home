@@ -20,7 +20,7 @@ echo "✅  spacemacs upgraded"
 
 cd ~/.doom/
 git pull
-git --no-pager log --since=1.weeks --oneline
+git --no-pager log --since=1.day --oneline
 doom clean
 doom refresh
 doom update
