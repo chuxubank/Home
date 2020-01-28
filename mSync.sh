@@ -6,6 +6,7 @@ files=(
     ".emacs-profiles.el"
     "mUpgrade.sh"
     "mRestartHomebridge.sh"
+    "mUseUniversalHeaderFile.sh"
 )
 
 for i in "${files[@]}"; do
