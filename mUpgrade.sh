@@ -18,5 +18,5 @@ git pull
 git --no-pager log --since=1.weeks --oneline
 echo "✅  spacemacs upgraded"
 
-doom upgrade
+doom --yes upgrade
 echo "✅  doom emacs upgraded"
