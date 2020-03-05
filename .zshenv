@@ -8,3 +8,9 @@ export RIME_PATH="$HOME/Developer/.librime"
 
 # doom-emacs
 export PATH="$HOME/.doom/bin:$PATH"
+
+# brew
+export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
+
+# node
+export NODE_MIRROR=https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/
