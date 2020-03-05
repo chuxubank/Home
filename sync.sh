@@ -7,6 +7,7 @@ files=(
     "mUpgrade.sh"
     "mRestartHomebridge.sh"
     "mUseUniversalHeaderFile.sh"
+    "mLiberime.sh"
 )
 
 for i in "${files[@]}"; do
