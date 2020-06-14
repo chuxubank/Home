@@ -10,10 +10,5 @@ echo "✅  brew cleaned up"
 flutter upgrade
 echo "✅  flutter upgraded"
 
-cd ~/.spacemacs/
-git pull
-git --no-pager log --since=1.weeks --oneline
-echo "✅  spacemacs upgraded"
-
-doom --yes upgrade
+doom -y up -f
 echo "✅  doom emacs upgraded"
