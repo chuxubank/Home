@@ -1,0 +1,4 @@
+#!/bin/bash
+#.wakeup
+
+open /Users/misaka/Library/Mobile\ Documents/com\~apple\~Automator/Documents/Hackintosh.app
